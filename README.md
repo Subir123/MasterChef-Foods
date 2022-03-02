@@ -1,8 +1,8 @@
 <h1 dir="auto">MasterChef Foods</h1>
 <p dir="auto">MasterChef Foods is an eCommerce Online Food Ordering Application.</p>
-<h2 dir="auto">Overview</h2>
+<h2 dir="auto"><strong>Overview</strong></h2>
 <p dir="auto" style="text-align: justify;">This project works is aimed for developing an efficient food ordering system that can be used in the food industry which can help the restaurants to quickly and easily manage daily operational task as well as improve the dining experience of customers.</p>
-<h2 dir="auto">Description</h2>
+<h2 dir="auto"><strong>Description</strong></h2>
 <p dir="auto" style="text-align: justify;">&ldquo;MasterChef Food&rdquo; is a simple online Food ordering app. This app consist of functionalities like-</p>
 <ul>
 <li style="text-align: justify;">Login- A user can login by using Mobile number or email id. Every user need to login first to access this application.<br /> Once the user login then a homepage appears on the screen which consists a search bar, navigation header, toolbar, different categories of food menus along with veg and non-veg sections. Using of search bar user can search any dishes, using navigation header user can check order details, order history etc. and it also have a logout button by which user can logout from the application. Toolbar have a notification icon which show numbers of unread notifications and a cart icon which shows numbers of menu items added to cart. Veg and Non-veg sections shows available veg and non-veg items.</li>
@@ -11,7 +11,7 @@
 <li style="text-align: justify;">Finally user move to the payment activity, hear user can pay using different payment methods.<br /><br /></li>
 </ul>
 <p>&nbsp;</p>
-<h2 dir="auto">Facility</h2>
+<h2 dir="auto"><strong>Facility</strong></h2>
 <p style="text-align: justify;">This is the online Food ordering app, which contains many facilities. Those facilities are clarified below.</p>
 <ul>
 <li style="text-align: justify;">Makes the ordering process easier.</li>
@@ -21,13 +21,13 @@
 <li style="text-align: justify;">You can reach thousands of people at a time.</li>
 </ul>
 <p>&nbsp;</p>
-<h2 dir="auto">Built with</h2>
+<h2 dir="auto"><strong>Built with</strong></h2>
 <ul dir="auto">
 <li>Android Studio</li>
 <li>Java</li>
 <li>Firebase Firestore</li>
 </ul>
-<h2 dir="auto">Sample Pictures</h2>
+<h2 dir="auto"><strong>Sample Pictures</strong></h2>
 
 ![image](https://user-images.githubusercontent.com/90409311/156402734-451e79c9-b131-4657-a6f3-19cc117f1621.png)
 ![image](https://user-images.githubusercontent.com/90409311/156403117-ab057989-552b-417e-b9f3-eb637c037f2c.png)
