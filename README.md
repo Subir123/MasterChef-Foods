@@ -8,7 +8,7 @@
 <li style="text-align: justify;">Login- A user can login by using Mobile number or email id. Every user need to login first to access this application.<br /> Once the user login then a homepage appears on the screen which consists a search bar, navigation header, toolbar, different categories of food menus along with veg and non-veg sections. Using of search bar user can search any dishes, using navigation header user can check order details, order history etc. and it also have a logout button by which user can logout from the application. Toolbar have a notification icon which show numbers of unread notifications and a cart icon which shows numbers of menu items added to cart. Veg and Non-veg sections shows available veg and non-veg items.</li>
 <li style="text-align: justify;">Now user need to add menu items into cart before order. User can check his or her cart which display items individually along their price and descriptions. It also display total amount and an order button.</li>
 <li style="text-align: justify;">After clicking on the order button from cart user move to the next screen which takes user details like user name, delivery address, mobile number etc. This screen provide a button to proceed to the next activity which shows order confirmation like user name, delivery address, email id, booked items, total payable amount etc.</li>
-<li style="text-align: justify;">Finally user move to the payment activity, hear user can pay using different payment methods.<br /><br /></li>
+<li style="text-align: justify;">Finally user move to the payment activity, hear user can pay using different payment methods.</li>
 </ul>
 <p>&nbsp;</p>
 <h2 dir="auto"><strong>Facility</strong></h2>
@@ -20,7 +20,6 @@
 <li style="text-align: justify;">Better customer&rsquo;s data. Who are your regular customers? Which food items are popular? Are they aware of the promotions and offers on the website? Do they prefer ordering from an app? These and many other related questions can be answered using analytics and insights provided by a robust online ordering system.</li>
 <li style="text-align: justify;">You can reach thousands of people at a time.</li>
 </ul>
-<p>&nbsp;</p>
 <h2 dir="auto"><strong>Built with</strong></h2>
 <ul dir="auto">
 <li>Android Studio</li>
