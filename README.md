@@ -10,7 +10,6 @@
 <li style="text-align: justify;">After clicking on the order button from cart user move to the next screen which takes user details like user name, delivery address, mobile number etc. This screen provide a button to proceed to the next activity which shows order confirmation like user name, delivery address, email id, booked items, total payable amount etc.</li>
 <li style="text-align: justify;">Finally user move to the payment activity, hear user can pay using different payment methods.</li>
 </ul>
-<p>&nbsp;</p>
 <h2 dir="auto"><strong>Facility</strong></h2>
 <p style="text-align: justify;">This is the online Food ordering app, which contains many facilities. Those facilities are clarified below.</p>
 <ul>
