@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_about_us"
+        android:title="About" />
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile_image"
+        android:title="My Profile" />
+
+
+    <item android:title="FOOD ORDERS">
+        <menu>
+
+            <item
+                android:id="@+id/my_cart"
+                android:icon="@drawable/shopping_cart"
+                android:title="My Cart" />
+
+            <item
+                android:id="@+id/nav_Orders"
+                android:icon="@drawable/ic_your_orders"
+                android:title="Your Orders" />
+
+            <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/ic_delivery_history"
+                android:title="Order History" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="Advance Options">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+
+        </menu>
+    </item>
+
+</menu>

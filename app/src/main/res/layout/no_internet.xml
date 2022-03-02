@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/no_internet_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/no_internet"
+        android:layout_marginBottom="20dp" />
+
+
+    <TextView
+        android:id="@+id/noInternet_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Could not connect to the internet.Please check \n your internet connection."
+        android:gravity="center"
+        android:fontFamily="@font/open_sans"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="32dp" />
+
+    <TextView
+        android:id="@+id/tryagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try again later"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorMain"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>

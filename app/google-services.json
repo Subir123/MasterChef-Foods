@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "433172296241",
+    "project_id": "masterchef-food-60c31",
+    "storage_bucket": "masterchef-food-60c31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433172296241:android:5020077704d82582ac1b10",
+        "android_client_info": {
+          "package_name": "com.example.mastercheffood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433172296241-ngskgav2ae2a0qateriiajdn7dsdo5dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEqEaBMnw6WyUCzeBbUj7TgZewpPEvA4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433172296241-ngskgav2ae2a0qateriiajdn7dsdo5dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

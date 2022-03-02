@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MasterChef Food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="facebook_app_id">459583998769113</string>
+    <string name="fb_login_protocol_scheme">fb459583998769113</string>
+
+    <string name="hint"><font size="15">Enter Phone Number</font></string>
+    <string name="send_otp">Send OTP</string>
+    <string name="terms_of_policy">By continuing you are agree to our \n Terms of Service Privacy Policy Content Policy</string>
+    <string name="email">email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello OrderNow fragment</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="about_us">MasterChef is an E-Commerce food ordering app developed by Subir Das in the year 2021.</string>
+    <string name="booking_initiated1">Your Booking has been placed Successfully at</string>
+    <string name="booking_initiated2">and it will be delivered within</string>
+    <string name="booking_status">Your order will be delivered within</string>
+
+
+
+    <string-array name="quantity_string_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>more</item>
+    </string-array>
+
+</resources>

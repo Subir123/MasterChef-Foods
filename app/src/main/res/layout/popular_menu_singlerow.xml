@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    app:strokeColor="@color/black"
+    app:strokeWidth="1dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baked_chicken_drumsticks" />
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chicken Masala"
+            android:layout_below="@+id/img1"
+            android:layout_marginStart="2dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/price_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="2dp"
+            android:layout_below="@+id/nametext"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: ₹"
+                android:textColor="@color/Red" />
+
+            <TextView
+                android:id="@+id/pricetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:text="Price"
+                android:textColor="@color/Red"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/add_to_cart"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/nametext"
+            android:layout_gravity="center"
+            android:background="@drawable/ripple_effect_buy_more"
+            android:text="Add To Cart"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:textColor="#FF018786"
+            android:textStyle="bold" />
+
+
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

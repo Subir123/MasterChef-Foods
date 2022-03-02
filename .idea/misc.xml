@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/drawable/bg_overlay.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/drawable/bg_title_broder.xml" value="0.28177083333333336" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/drawable/edittext_stroke_borders.xml" value="0.28177083333333336" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/drawable/homepage_background.xml" value="0.28177083333333336" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/drawable/ic_minus.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/drawable/ic_plus.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/drawable/ic_profile_image.xml" value="0.28177083333333336" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.28177083333333336" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/drawable/shopping_cart.xml" value="0.28177083333333336" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/aboutus_popup_dialog.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_home_page.xml" value="0.22" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_landing_page.xml" value="0.2" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_login_page.xml" value="0.265625" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_menu_details.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_no_internet.xml" value="0.265625" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_order.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_populer_menu_view_all.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_razorpay.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_search.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/activity_verify_otpactivity.xml" value="0.25" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/add_to_cart_confirmation_popup.xml" value="0.25" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/add_to_cart_singlerow.xml" value="0.33" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/cart_singlerow.xml" value="0.171875" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/fragment_add_to_card.xml" value="0.22" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/fragment_my_cart.xml" value="0.22" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/fragment_nonveg__only_.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/fragment_order_summery.xml" value="0.25" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/fragment_personal_details.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/fragment_search.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/fragment_search_menu_details.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/fragment_veg__only_.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/image_slider_item.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/navigation_header.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/no_internet.xml" value="0.25" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/nonveg_menu_singlerow.xml" value="0.18" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/order_confirmation_popup.xml" value="0.25" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/order_history_popup_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/order_history_singlerow.xml" value="0.25" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/pending_orders_popup_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/popular_menu_singlerow.xml" value="0.33" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/popular_menu_view_all_singlerow.xml" value="0.25" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/search_list_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/show_pending_orders_singlerow.xml" value="0.33" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/show_user_profile_popup_dialog.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/show_user_profile_singlerow.xml" value="0.22" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/layout/veg_menu_singlerow.xml" value="0.22" />
+        <entry key="..\:/Users/Subir/AndroidStudioProjects/MasterChefFood/app/src/main/res/menu/navigation_menu.xml" value="0.14583333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

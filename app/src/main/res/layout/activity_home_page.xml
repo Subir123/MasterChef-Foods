@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    tools:context=".Activities.HomePageActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#41A5B6"
+                app:navigationIcon="@drawable/ic__menu" >
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/cart_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_shopping_cart" />
+
+
+                    <com.nex3z.notificationbadge.NotificationBadge
+                        android:id="@+id/badge"
+                        android:layout_width="27dp"
+                        android:layout_height="27dp"
+                        android:layout_alignTop="@+id/cart_icon"
+                        android:layout_marginStart="-13dp"
+                        android:layout_marginTop="-10dp"
+                        android:layout_toEndOf="@+id/cart_icon"
+                        app:nbMaxTextLength="2">
+
+                    </com.nex3z.notificationbadge.NotificationBadge>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/notification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_notifications" />
+
+
+                    <com.nex3z.notificationbadge.NotificationBadge
+                        android:id="@+id/badge1"
+                        android:layout_width="27dp"
+                        android:layout_height="27dp"
+                        android:layout_alignTop="@+id/notification"
+                        android:layout_marginStart="-14dp"
+                        android:layout_marginTop="-10dp"
+                        android:layout_toEndOf="@+id/notification"
+                        app:nbMaxTextLength="2">
+
+                    </com.nex3z.notificationbadge.NotificationBadge>
+                </RelativeLayout>
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbar"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/searchbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolber">
+
+                <Button
+                    android:id="@+id/searchbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/search_bar"
+                    android:drawableStart="@drawable/ic_search"
+                    android:elevation="5dp"
+                    android:hint="Search Your Favorite  Food..."
+                    android:paddingStart="15dp"
+                    android:paddingEnd="100dp"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/searchbar_layout"
+                android:fillViewport="true">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:id="@+id/user_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_overlay">
+
+
+                            <TextView
+                                android:id="@+id/menu_of_day"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="5dp"
+                                android:fontFamily="@font/open_sans"
+                                android:text="Offer of the Day"
+                                android:textColor="#fff"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/see_more"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="10dp"
+                                android:focusable="true"
+                                android:text="See More"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            app:cardCornerRadius="15dp">
+
+                            <com.smarteist.autoimageslider.SliderView
+                                android:id="@+id/slider"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                app:sliderAnimationDuration="600"
+                                app:sliderAutoCycleDirection="back_and_forth"
+                                app:sliderAutoCycleEnabled="true"
+                                app:sliderIndicatorAnimationDuration="600"
+                                app:sliderIndicatorGravity="center_horizontal|bottom"
+                                app:sliderIndicatorMargin="15dp"
+                                app:sliderIndicatorOrientation="horizontal"
+                                app:sliderIndicatorPadding="3dp"
+                                app:sliderIndicatorRadius="2dp"
+                                app:sliderIndicatorSelectedColor="#5A5A5A"
+                                app:sliderIndicatorUnselectedColor="#FFF"
+                                app:sliderScrollTimeInSec="5"
+                                app:sliderStartAutoCycle="true" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/recycle_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/user_profile"
+                        android:layout_marginStart="10dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/homepage_background">
+
+
+                            <TextView
+                                android:id="@+id/popular_menu"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="5dp"
+                                android:fontFamily="@font/open_sans"
+                                android:text="Popular Dishes"
+                                android:textColor="#fff"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/view_all"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="14dp"
+                                android:focusable="true"
+                                android:fontFamily="@font/open_sans"
+                                android:text="View All"
+                                android:textColor="#FA0808"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="-3dp"
+                            android:layout_marginTop="3dp" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/bottom_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/recycle_layout"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@drawable/homepage_background">
+
+                            <TextView
+                                android:id="@+id/bestmenu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="5dp"
+                                android:fontFamily="@font/open_sans"
+                                android:text="Veg / Nonveg Dishes"
+                                android:textColor="#fff"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+
+                            <Switch
+                                android:id="@+id/menu_change_switch"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="5dp"
+                                android:checked="false"
+                                android:fontFamily="@font/open_sans"
+                                android:padding="5dp"
+                                android:switchPadding="5dp"
+                                android:text="Veg Only"
+                                android:textColor="#555555"
+                                android:thumb="@drawable/switch_thumb_color"
+                                android:track="@drawable/switch_thumb_track"
+                                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fragment_container2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bottom_layout"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="horizontal" />
+
+
+                </RelativeLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_container3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/navigation_menu" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
