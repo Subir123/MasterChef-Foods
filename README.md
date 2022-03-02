@@ -1,1 +1,1 @@
-ecommerce Online Food Ordering Application Using Firebase
+eCommerce Online Food Ordering Application Using Firebase
