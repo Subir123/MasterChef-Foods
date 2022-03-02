@@ -1,5 +1,18 @@
 eCommerce Online Food Ordering Application Using Firebase
 
+DashIN
+Mess or Restaurant Management System
+
+Overview
+This is a Android Application built on android studio platform.The application focuses availability of restaurants, cafes or mess to customers. Customers can book seat, preorder food, subscribe to a mess on timely basis.
+
+Contents
+DashIN has mainly 3 modules viz. Customer, Vendor and Staff, each having different rights. To access the system functionalities, Customer have to signup and will get the login credentials where as staff will get login credentials directly from the authorities. The vendors can signup and will have to wait for documents verification. Vendors will get email/sms of verification and then will able to login.
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/90409311/156402734-451e79c9-b131-4657-a6f3-19cc117f1621.png)
 ![image](https://user-images.githubusercontent.com/90409311/156403117-ab057989-552b-417e-b9f3-eb637c037f2c.png)
 ![image](https://user-images.githubusercontent.com/90409311/156406137-63ed48d7-9bb2-41c9-9285-dcf2d5bcc73a.png)
