@@ -27,7 +27,7 @@
 </ul>
 <h2 dir="auto"><strong>Sample Pictures</strong></h2>
 
-![image](https://user-images.githubusercontent.com/90409311/156402734-451e79c9-b131-4657-a6f3-19cc117f1621.png)
+![Screenshot](https://user-images.githubusercontent.com/90409311/157297547-b5ec3427-975c-4db4-813a-8956aee3c41f.png)
 ![image](https://user-images.githubusercontent.com/90409311/156403117-ab057989-552b-417e-b9f3-eb637c037f2c.png)
 ![image](https://user-images.githubusercontent.com/90409311/156406137-63ed48d7-9bb2-41c9-9285-dcf2d5bcc73a.png)
 ![image](https://user-images.githubusercontent.com/90409311/156410333-176909d2-7219-4899-913f-034baf488444.png)
